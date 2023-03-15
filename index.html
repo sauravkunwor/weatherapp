@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather Prediction</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="weather">
+      <h1>Weather Prediction</h1>
+      <h3>Enter weather data of day before to know the weather of the day</h3>
+      <form id="form">
+        <div class="input-field">
+          <label for="precipitation">Precipitation:</label>
+          <input placeholder="0" type="text" id="precipitation">
+        </div>
+
+        <div class="input-field">
+          <label for="relativeHumidity">Relative Humidity:</label>
+          <input placeholder="0" type="text" id="relativeHumidity">
+        </div>
+
+        <div class="input-field">
+          <label for="surfacePressure">Surface Pressure:</label>
+          <input placeholder="0" type="text" id="surfacePressure">
+        </div>
+
+        <div class="input-field">
+          <label for="maxTemp">Max Temperature:</label>
+          <input placeholder="0" type="text" id="maxTemp">
+        </div>
+
+        <div class="input-field">
+          <label for="minTemp">Min Temperature:</label>
+          <input placeholder="0" type="text" id="minTemp">
+        </div>
+
+        <div class="input-field">
+          <label for="windSpeed">Wind Speed:</label>
+          <input placeholder="0" type="text" id="windSpeed">
+        </div>
+
+        <button type="submit">Predict Weather</button>
+      </form>
+
+      <div id="result">
+      </div>
+
+      <div class="weather-info">
+        <img src="../sun.png" alt="sun icon">
+        <div>
+          <h3>Sunny</h3>
+          <p>Temperature: 25&deg;C</p>
+        </div>
+      </div>
+
+      <div class="weather-info">
+        <img src="../cloud.png" alt="cloud icon">
+        <div>
+          <h3>Cloudy</h3>
+          <p>Temperature: 20&deg;C</p>
+        </div>
+      </div>
+
+      <div class="weather-info">
+        <img src="../rain.png " alt="rain icon">
+        <div>
+          <h3>Rainy</h3>
+          <p>Temperature: 15&deg;C</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+  }
+  
+  #weather {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2b2b2b;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .input-field {
+    flex-basis: 30%;
+    margin-bottom: 10px;
+  }
+  
+  .input-field label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2b2b2b;
+  }
+  
+  .input-field input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff9900;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 20px;
+  }
+  
+  .weather-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px #ccc;
+  }
+  
+  .weather-info img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .weather-info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #2b2b2b;
+  }
+  
+  .weather-info p {
+    margin: 0;
+    color: #666;
+    font-size: 0.8rem;
+  }
+  .data-output-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    padding-block: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .data-output-item {
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .data-output-item span {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .data-output-item span::after {
+    content: ":";
+  }
+  
+  .data-output-item p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
